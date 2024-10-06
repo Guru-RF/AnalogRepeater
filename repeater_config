@@ -1,0 +1,3 @@
+sa818 --port /dev/ttyAMA0 volume --level 2
+sa818 --port /dev/ttyAMA0 radio --bw 0 --frequency 438.800 --ctcss 131.8 --tail close --squelch 8
+sa818 --port /dev/ttyAMA0 filters --emphasis disable --highpass disable --lowpass disable
